@@ -10,7 +10,11 @@ can be shown with either IPv4 data or IPv6.
  * **Prefixes announced**: number of prefixes announced by the AS.
  * **Originated prefixes**: number of prefixes owned by the AS.
  * **Peer count**: number of peers observed as neighbors to the given AS.
- 
+
+Here is an example of a chart (`bgpchart -c p AS2828`):
+
+![Chart example](https://raw.githubusercontent.com/toringe/bgpchart/master/example.png)
+
 ### Usage
 
     usage: bgpchart.py [-h] [-ip {v4,v6}] [-c {a,o,p}] [-o path] [-v] asn
